@@ -302,9 +302,9 @@ public class HotelBooking {
 	public static void main(String[] args) throws ParseException {
 		
 		//create rooms for all types
-		Basic basicRoom = new Basic();
-		Delux deluxRoom = new Delux();
-		Suit suitRoom = new Suit();
+		RoomType basicRoom = new Basic(); // can use parent class to create objects of derived class
+		RoomType deluxRoom = new Delux();
+		RoomType suitRoom = new Suit();
 		
 		System.out.println("Welcome to Bookings.com!");
 		
